@@ -25,6 +25,7 @@ while running:
     end_point = (0, 500)
     line_width = 5
 
+    # Draw a line
     pygame.draw.line(screen, line_color, start_point, end_point, line_width)
 
     #challenge question

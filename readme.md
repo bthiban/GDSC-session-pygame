@@ -5,6 +5,7 @@
 To create a virtual environment, open a terminal and navigate to the directory where you want to create the virtual environment. Then, run the following command:
 
     python -m venv .venv
+
 This will create a new directory called .venv containing a copy of the Python interpreter, the pip package manager, and other necessary files.
 
 ###Activating the Virtual Environment
@@ -12,6 +13,7 @@ This will create a new directory called .venv containing a copy of the Python in
 To activate the virtual environment, run the following command:
 
     source .venv/bin/activate
+
 This will update your environment variables so that Python and pip use the virtual environment instead of the global installation.
 
 ###Installing the Pygame Library
@@ -19,6 +21,7 @@ This will update your environment variables so that Python and pip use the virtu
 To install the Pygame library, run the following command:
 
     pip3 install pygame
+
 This will install the Pygame library into the virtual environment.
 
 ###Running Your Code
@@ -26,6 +29,7 @@ This will install the Pygame library into the virtual environment.
 To run your code, simply type the following command:
 
     python shape.py
+    
 This will start the Python interpreter and execute your code.
 
 Example
